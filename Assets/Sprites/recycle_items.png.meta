@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 8539bd7a1fc21034cb54df420ef360fe
+guid: 8c1281a864bab4946a67ad2d967d91b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1212656191580834748
-    second: george_0
+      213: -806415066056697924
+    second: recycle_items_0
   - first:
-      213: -446080272761505808
-    second: george_1
+      213: 1043442747385290943
+    second: recycle_items_1
   - first:
-      213: 7364557105161655394
-    second: george_2
+      213: -8075080999890912046
+    second: recycle_items_2
   - first:
-      213: 2834835260839429080
-    second: george_3
+      213: -2476258253311705711
+    second: recycle_items_3
   - first:
-      213: -4176668720435019896
-    second: george_4
+      213: 5740961901574564063
+    second: recycle_items_4
   - first:
-      213: -3507609111476023911
-    second: george_5
+      213: 5435821699272093448
+    second: recycle_items_5
   - first:
-      213: 217811228207917067
-    second: george_6
+      213: 2269047082188048265
+    second: recycle_items_6
   - first:
-      213: -1580005331218028238
-    second: george_7
+      213: 1300672506531497445
+    second: recycle_items_7
   - first:
-      213: -3613987320800232396
-    second: george_8
+      213: 1276133046112500958
+    second: recycle_items_8
   - first:
-      213: 7995988539013619322
-    second: george_9
+      213: -3073328907359574357
+    second: recycle_items_9
   - first:
-      213: -4672802000885893232
-    second: george_10
+      213: 5552002940746071778
+    second: recycle_items_10
   - first:
-      213: 5024841952986704283
-    second: george_11
+      213: 242945838433551811
+    second: recycle_items_11
   - first:
-      213: -5947782098575674738
-    second: george_12
+      213: 1565831748363409520
+    second: recycle_items_12
   - first:
-      213: 5048597124267302775
-    second: george_13
+      213: -7593663360690973604
+    second: recycle_items_13
   - first:
-      213: 7595347947741795711
-    second: george_14
+      213: -3732252094069606516
+    second: recycle_items_14
   - first:
-      213: 7374616585114685731
-    second: george_15
+      213: -4369724801813180756
+    second: recycle_items_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 28
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -158,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: george_0
+      name: recycle_items_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 149
-        width: 31
-        height: 33
+        x: 2
+        y: 2
+        width: 15
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,19 +173,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbb8add916834d010800000000000000
-      internalID: 1212656191580834748
+      spriteID: cb7da2e15c90fc4f0800000000000000
+      internalID: -806415066056697924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: george_1
+      name: recycle_items_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 148
-        width: 30
+        x: 19
+        y: 2
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0ab5d76ad0b7e00800000000000000
+      internalID: 1043442747385290943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcfefc3d9c8fef80800000000000000
+      internalID: -8075080999890912046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19df9370d3092add0800000000000000
+      internalID: -2476258253311705711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8276cbe6efbaf40800000000000000
+      internalID: 5740961901574564063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f2977090bef6b40800000000000000
+      internalID: 5435821699272093448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9878470ac464d7f10800000000000000
+      internalID: 2269047082188048265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_7
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e54de0e0caec0210800000000000000
+      internalID: 1300672506531497445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc3ca38e3cb5b110800000000000000
+      internalID: 1276133046112500958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6a4e654a75955d0800000000000000
+      internalID: -3073328907359574357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eef713424dac0d40800000000000000
+      internalID: 5552002940746071778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recycle_items_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2
+        width: 18
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -195,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f7bdb8fa543fc9f0800000000000000
-      internalID: -446080272761505808
+      spriteID: 3c5cd7fe3fd1f5300800000000000000
+      internalID: 242945838433551811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: george_2
+      name: recycle_items_12
       rect:
         serializedVersion: 2
-        x: 105
-        y: 149
-        width: 31
-        height: 33
+        x: 373
+        y: 2
+        width: 28
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2645d350ba9243660800000000000000
-      internalID: 7364557105161655394
+      spriteID: 078da33dda3fab510800000000000000
+      internalID: 1565831748363409520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: george_3
+      name: recycle_items_13
       rect:
         serializedVersion: 2
-        x: 154
-        y: 148
-        width: 30
-        height: 34
+        x: 403
+        y: 2
+        width: 60
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d3061f66ab575720800000000000000
-      internalID: 2834835260839429080
+      spriteID: c549d1a0863ed9690800000000000000
+      internalID: -7593663360690973604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: george_4
+      name: recycle_items_14
       rect:
         serializedVersion: 2
-        x: 9
-        y: 100
-        width: 31
-        height: 34
+        x: 465
+        y: 2
+        width: 29
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88f3cfd7ded7906c0800000000000000
-      internalID: -4176668720435019896
+      spriteID: c87f5c8ae70643cc0800000000000000
+      internalID: -3732252094069606516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: george_5
+      name: recycle_items_15
       rect:
         serializedVersion: 2
-        x: 55
-        y: 100
-        width: 30
-        height: 34
+        x: 496
+        y: 2
+        width: 17
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,228 +503,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99d4c83e818725fc0800000000000000
-      internalID: -3507609111476023911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_6
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 100
-        width: 31
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b08ac657822d50300800000000000000
-      internalID: 217811228207917067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_7
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 100
-        width: 30
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 239a681c581b21ae0800000000000000
-      internalID: -1580005331218028238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_8
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 53
-        width: 31
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43cbfe0fda988ddc0800000000000000
-      internalID: -3613987320800232396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_9
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 52
-        width: 30
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7e5000363577fe60800000000000000
-      internalID: 7995988539013619322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_10
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 53
-        width: 31
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0973677765fd62fb0800000000000000
-      internalID: -4672802000885893232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_11
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 52
-        width: 30
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b99a04c2223dbb540800000000000000
-      internalID: 5024841952986704283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_12
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 4
-        width: 31
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8238fca1bb357da0800000000000000
-      internalID: -5947782098575674738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_13
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 4
-        width: 30
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77fd20ef558301640800000000000000
-      internalID: 5048597124267302775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_14
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 4
-        width: 31
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7554a277b8186960800000000000000
-      internalID: 7595347947741795711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: george_15
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 4
-        width: 30
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 321177636b6e75660800000000000000
-      internalID: 7374616585114685731
+      spriteID: cae06bdc17e9b53c0800000000000000
+      internalID: -4369724801813180756
       vertices: []
       indices: 
       edges: []
@@ -513,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ac94ccc7a56c504284c9aa57ebab168
     internalID: 0
     vertices: []
     indices: 
@@ -521,24 +521,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      george_0: 1212656191580834748
-      george_1: -446080272761505808
-      george_10: -4672802000885893232
-      george_11: 5024841952986704283
-      george_12: -5947782098575674738
-      george_13: 5048597124267302775
-      george_14: 7595347947741795711
-      george_15: 7374616585114685731
-      george_2: 7364557105161655394
-      george_3: 2834835260839429080
-      george_4: -4176668720435019896
-      george_5: -3507609111476023911
-      george_6: 217811228207917067
-      george_7: -1580005331218028238
-      george_8: -3613987320800232396
-      george_9: 7995988539013619322
+      recycle_items_0: -806415066056697924
+      recycle_items_1: 1043442747385290943
+      recycle_items_10: 5552002940746071778
+      recycle_items_11: 242945838433551811
+      recycle_items_12: 1565831748363409520
+      recycle_items_13: -7593663360690973604
+      recycle_items_14: -3732252094069606516
+      recycle_items_15: -4369724801813180756
+      recycle_items_2: -8075080999890912046
+      recycle_items_3: -2476258253311705711
+      recycle_items_4: 5740961901574564063
+      recycle_items_5: 5435821699272093448
+      recycle_items_6: 2269047082188048265
+      recycle_items_7: 1300672506531497445
+      recycle_items_8: 1276133046112500958
+      recycle_items_9: -3073328907359574357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
