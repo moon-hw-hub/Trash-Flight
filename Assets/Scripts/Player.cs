@@ -38,7 +38,11 @@ public class Player : MonoBehaviour
         float toX = Mathf.Clamp(mousePos.x, -2.35f, 2.35f); // 경계를 벗어나면 경계의 값으로 고정
         transform.position = new Vector3(toX, transform.position.y, transform.position.z);
 
-        Shoot();
+        if (GameManager.instance.isGameOver == false) // 게임 진행 중 상태일 동안만 슈팅한다.
+        {
+            Shoot();
+        }
+        
     }
 
     void Shoot()
@@ -58,9 +62,10 @@ public class Player : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other) //플레이어랑 적이 충돌했을 경우 처리
     {
-        if (other.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Boss")
         {
-            Debug.Log("Game Over");
+            //Debug.Log("Game Over");
+            GameManager.instance.SetGameOver();
             Destroy(gameObject);
         } else if (other.gameObject.tag == "Coin")
         {

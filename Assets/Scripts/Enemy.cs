@@ -30,12 +30,16 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) //istrigger 체크 되어있을경우, 충돌 처리 메서드
     {
-        if (other.gameObject.tag == "Weapon")
+        if (other.gameObject.tag == "Weapon") //gameObject : 해당 스크립트가 붙어있는 GameObject를 참조함
         {
             Weapon weapon = other.GetComponent<Weapon>();
             hp -= weapon.damage;
             if (hp <= 0)
             {
+                if (gameObject.tag == "Boss")
+                {
+                    GameManager.instance.SetGameOver();
+                }
                 Destroy(gameObject); //적이 사라짐
                 Instantiate(coin, transform.position, Quaternion.identity);
             }
